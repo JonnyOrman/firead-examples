@@ -1,0 +1,14 @@
+*
+
+!.gitignore
+!*.go
+!*.mod
+!*.sum
+!docker-compose.yml
+!README.md
+!Dockerfile
+!fireworks-config.json
+!*.env
+!firebase.json
+
+!*/
