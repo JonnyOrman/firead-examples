@@ -10,4 +10,4 @@ WORKDIR firebase
 
 COPY . .
 
-CMD firebase emulators:start --project=my-firesert-project --only=firestore
+CMD firebase emulators:start --project=my-firead-project --only=firestore

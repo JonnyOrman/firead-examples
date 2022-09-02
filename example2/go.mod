@@ -2,7 +2,7 @@ module github.com/jonnyorman/firead/example2
 
 go 1.18
 
-require github.com/jonnyorman/firead v0.0.0-20220901074858-66d298cb2cda
+require github.com/jonnyorman/firead v0.0.0-20220902113918-6dd041689bba
 
 require (
 	cloud.google.com/go v0.104.0 // indirect
@@ -21,7 +21,7 @@ require (
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
-	github.com/jonnyorman/fireworks v0.0.0-20220831144328-3dcf0ef47a71 // indirect
+	github.com/jonnyorman/fireworks v0.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
