@@ -1,4 +1,4 @@
-module github.com/jonnyorman/firead/example2
+module github.com/jonnyorman/firead/example6
 
 go 1.18
 

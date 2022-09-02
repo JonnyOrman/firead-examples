@@ -28,3 +28,50 @@ services:
       - "3002:3002"
     depends_on:
      - firebase-emulator
+  example3:
+    build:
+      context: ./example3
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3003
+    ports:
+      - "3003:3003"
+    depends_on:
+     - firebase-emulator
+  example4:
+    build:
+      context: ./example4
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3004
+    ports:
+      - "3004:3004"
+    depends_on:
+     - firebase-emulator
+  example5:
+    build:
+      context: ./example5
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3005
+      PROJECT_ID: "my-firead-project"
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3005:3005"
+    depends_on:
+     - firebase-emulator
+  example6:
+    build:
+      context: ./example6
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3006
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3006:3006"
+    depends_on:
+     - firebase-emulator

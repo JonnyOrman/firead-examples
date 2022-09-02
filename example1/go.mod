@@ -2,7 +2,7 @@ module github.com/jonnyorman/firead/example1
 
 go 1.18
 
-require github.com/jonnyorman/firead v0.0.0-20220902113918-6dd041689bba
+require github.com/jonnyorman/firead v0.0.0-20220902152035-b721ba080933
 
 require (
 	cloud.google.com/go v0.104.0 // indirect

@@ -5,8 +5,8 @@ Examples demonstrating how to use [firead](https://github.com/JonnyOrman/firead)
 It contains the following examples:
 - `example1` - gets documents with string IDs
 - `example2` - gets documents with int IDs
-- `example3` - uses a struct to define the data to be returned with an string ID
-- `example4` - uses a struct to define the data to be returned with a int ID
+- `example3` - uses a struct to define the data to be returned with a string ID
+- `example4` - uses a struct to define the data to be returned with an int ID
 - `example5` - config retrieved from the environment
 - `example6` - config retrieved from both the config file and the environment
 
