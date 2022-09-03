@@ -17,7 +17,7 @@ With Docker installed, clone the repo and run
 docker-compose up --build
 ```
 
-Create the collection "MyCollection" and seed test data for the Firestore emulator at `localhost:4000/firestore/data`
+Create the collection "MyCollection" and insert test data for the Firestore emulator at `localhost:4000/firestore/data`
 
 To use each of the examples, `GET` the following, substituting in the target document ID:
 - `example1` - `localhost:3001/{id}`
