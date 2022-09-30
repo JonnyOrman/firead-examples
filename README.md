@@ -9,6 +9,7 @@ It contains the following examples:
 - `example4` - uses a struct to define the data to be returned with an int ID
 - `example5` - config retrieved from the environment
 - `example6` - config retrieved from both the config file and the environment
+- `example7` - uses the Docker image
 
 # How to run
 
@@ -26,6 +27,7 @@ To use each of the examples, `GET` the following, substituting in the target doc
 - `example4` - `localhost:3004/{id}`
 - `example5` - `localhost:3005/{id}`
 - `example6` - `localhost:3006/{id}`
+- `example7` - `localhost:3006/{id}`
 
 e.g. to get a document with ID "abc" from `example1`, request:
 ```
