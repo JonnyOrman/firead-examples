@@ -75,3 +75,15 @@ services:
       - "3006:3006"
     depends_on:
      - firebase-emulator
+  example7:
+    image: jonnyorman/firead:latest
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3007
+      PROJECT_ID: "my-firead-project"
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3007:3007"
+    depends_on:
+      - firebase-emulator
