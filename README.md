@@ -27,7 +27,7 @@ To use each of the examples, `GET` the following, substituting in the target doc
 - `example4` - `localhost:3004/{id}`
 - `example5` - `localhost:3005/{id}`
 - `example6` - `localhost:3006/{id}`
-- `example7` - `localhost:3006/{id}`
+- `example7` - `localhost:3007/{id}`
 
 e.g. to get a document with ID "abc" from `example1`, request:
 ```
